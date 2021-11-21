@@ -1,0 +1,41 @@
+html,
+body,
+header,
+div,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+figure,
+nav,
+span,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.App-header {
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  height: 5vh;
+}
