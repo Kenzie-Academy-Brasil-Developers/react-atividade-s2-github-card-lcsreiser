@@ -12,9 +12,9 @@ const Card = ({ cardResult: { owner, full_name, description, html_url } }) => {
           </div>
           <div className="card-container__info">
             <h3>{full_name}</h3>
-            <p className="card-info__description">{description}</p>
+            <p>{description}</p>
             <a href={html_url} rel="noreferrer" target="_blank">
-              Go to repository
+              Ir para o repositório
             </a>
           </div>
         </div>

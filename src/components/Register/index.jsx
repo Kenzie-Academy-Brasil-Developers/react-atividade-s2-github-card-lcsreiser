@@ -2,7 +2,6 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import { Button } from "@mui/material";
 import { TextField } from "@mui/material";
 import "./style.css";
 
@@ -14,7 +13,6 @@ const Register = ({ cardResult, setCardResult }) => {
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(formSchema),
@@ -41,9 +39,7 @@ const Register = ({ cardResult, setCardResult }) => {
           <p className="input-error">{errors.name?.message}</p>
         </div>
 
-        <Button variant="contained" type="submit">
-          Pesquisar
-        </Button>
+        <button type="submit">Pesquisar</button>
       </form>
     </div>
   );

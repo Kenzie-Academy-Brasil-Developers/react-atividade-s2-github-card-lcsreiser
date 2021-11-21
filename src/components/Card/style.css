@@ -28,10 +28,11 @@ img {
   margin-left: 15px;
 }
 
-.card-info__description {
+.card-container__info > p {
   color: rgb(175, 175, 175);
   margin: 5px 0;
 }
+
 .card-error {
   font-size: 13px;
   color: red;
